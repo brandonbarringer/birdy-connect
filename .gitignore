@@ -1,0 +1,19 @@
+# Misc
+.DS_Store
+
+# Front End Development Artifacts
+node_modules
+.sass-cache
+bower-components
+.dev
+npm-debug.log
+
+# WordPress
+wp-config.php
+wp-content/uploads
+wp-content/upgrade
+
+# Development
+/nbproject/
+wp-content/plugins/wordfence/tmp/
+wflogs
