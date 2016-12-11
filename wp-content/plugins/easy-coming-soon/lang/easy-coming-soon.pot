@@ -1,0 +1,1168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: easy-coming-soon\n"
+"POT-Creation-Date: 2016-12-01 13:41+0530\n"
+"PO-Revision-Date: 2016-12-01 13:41+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\translate\\wp-content\\plugins"
+"\\commingsoon_lite\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\translate\\wp-content\\plugins"
+"\\commingsoon_lite\n"
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/coming-soon-plugin.php:32
+msgid "Easy coming soon"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:96
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:14
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:14
+msgid "Coming Soon Pro Features"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:101
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:19
+msgid "Hey There,"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:101
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:19
+msgid ""
+"Thanks for using the lite version of Easy Coming Soon. I hope the plugin "
+"will enable you to quickly and easily create a landing page."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:103
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:21
+msgid ""
+"If you are looking to create a more feature rich landing page then I would "
+"suggest you to have a look at the premium version of the Easy Coming Soon "
+"Plugin.\n"
+"It has a lot of additional features which will allow you to quickly create a "
+"good looking landing page."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:106
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:24
+msgid "I would suggest you to checkout the"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:106
+msgid "Sample Coming Soon Page"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:106
+msgid "created by the premium version of the plugin."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:107
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:25
+msgid "Also Check out the Admin Panel"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:107
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:25
+msgid "here"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:107
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:26
+msgid ". User Login: user and Password: user"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:120
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:39
+msgid "Here is the complete List of Features in Pro Version "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:128
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:47
+msgid "1. Multiple Design Templates "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:129
+msgid ""
+"A Launch Page can play an important role in branding so we made sure that "
+"all included templates are good looking."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:129
+msgid ""
+"\n"
+"As a user you just have to fill in the data via option panel and a Coming "
+"Soon Page will be created as per the selected template."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:133
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:52
+msgid "2. Email Capture Form"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:134
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:53
+msgid ""
+"A Launch Page is ideal for collecting Email address of the interested "
+"visitors. You can quickly setup a Email Capture Form and Start collecting "
+"Email Address. All the Emails are stored on in your Website Database "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:136
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:55
+msgid "3. Newsletter / Autoresponder Integration"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:137
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:56
+msgid ""
+"Easy Coming Soon integrates with MailChimp, Aweber, Constant Contact , "
+"CampaignMonitor and Madmimi. You can connect the plugin to third party "
+"services and started building your Email List"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:140
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:59
+msgid "4. User White List"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:142
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:61
+msgid ""
+"This feature is very useful if you are building the website for a client. "
+"With this feature you can allow client / contributor to view the live site "
+"while all others will be presented with the Coming Soon Page. "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:144
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:63
+msgid "5. Landing Page Mode"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:145
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:64
+msgid ""
+"With this feature you can choose to display the Coming Soon Page on the "
+"entire site or on a single Page. <br> Here is a Use Case: Suppose you want "
+"the blog to be accessible to all users while displaying the coming soon page "
+"on the font page. It can be done with the Landing Page Mode."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:153
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:72
+msgid "6. Custom Favicon and Logo Support "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:155
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:74
+msgid ""
+"You can quickly upload a Custom Logo and favicon via the option Panel. We "
+"make use of Wordpress Mdeia Uploader, so you can also insert the logo from "
+"the Wordpress Media Library."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:158
+msgid "7. Count-Down Timer Support "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:160
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:79
+msgid ""
+"This feature was implemented as a response to a suggestion by one of our "
+"user. With this feature you can display a count down timer on the coming "
+"soon page. The timer can be quickly configure via option panel."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:164
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:83
+msgid "8. Progress Bar Support "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:166
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:85
+msgid ""
+"It is also possible to display a Progress Bar on the coming soon page. "
+"Currently 3 styles of progress bars are supported, Basic, Striped and "
+"Animated. "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:168
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:87
+msgid "9. Custom Text Strings"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:169
+msgid ""
+"This feature allows you to quickly change the labels of the Text Fields and "
+"Buttons."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:172
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:91
+msgid "10. BackGround Slide-Show"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:173
+msgid ""
+"You can create a SlideShow and display it as a background with this feature. "
+"You may add as many slides as you want. It is also possible to display a "
+"Static Image or simply a color as a background."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:175
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:94
+msgid "11. Video BackGround Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:176
+msgid ""
+"This feature allows you to create a Full Screen Video BackGround. Just "
+"upload the video on Youtube and configure the settings via the Admin Panel. "
+"Its that simple!"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:178
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:97
+msgid "12. Social Icon Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:179
+msgid ""
+"The premium version has support for 20 Social Media Network. You just need "
+"to fill in the url and the respective icon will be displayed on the coming "
+"soon page."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:181
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:100
+msgid "13. Design Customization Options"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:182
+msgid ""
+"The plugin allows you to quickly customize the settings like Font Color, "
+"Font Size, Font type, Button Color etc. All of these settings can be "
+"accessed via the Option Panel."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:184
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:103
+msgid "14. Custom CSS Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:185
+msgid ""
+"A lot of times the inbuilt settings are just not enough. With the Custom CSS "
+"support you can quikly add style rules to the coming soon page."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:187
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:106
+msgid "15. Google Analytics Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:188
+msgid ""
+"You can paste the google analytics tracking code and track the pageviews. No "
+"need to install a separate plugin.."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:208
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:32
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:7
+msgid "Pricing"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:209
+msgid ""
+"The pro version is priced at <strong>very reasonable 29 USD</strong> and "
+"entitles you to receive <strong>support and updates for 1 year</strong>. "
+"<br><br>If you need updates and support after one year, then simply renew "
+"the license. If not, then you may keep using the plugin. <br>You may use the "
+"plugin on any number of websites you want"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:212
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:16
+msgid "How to Purchase."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:213
+msgid "If you are interested then you can buy the plugin "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:213
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:17
+msgid "here."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:215
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:19
+msgid "I look Forward to Working with you"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:216
+msgid ""
+"Thousands of users have enjoyed using our. I hope you will also enjoy "
+"working with us"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:236
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:121
+msgid "Cheers"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:238
+msgid "Co-Founder, Webriti Themes and Plugins"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:277
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:136
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:36
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:20
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:224
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:516
+msgid "Upgrade To Pro Version"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/pro-detail.php:278
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:137
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:37
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:21
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:225
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:517
+msgid "View Live demo"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/template/coming_soon_display.php:131
+msgid "Social Links:"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:2
+msgid "Settings >>"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:6
+msgid "Easy Coming Soon Plugin"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:7
+msgid "Preview"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:8
+msgid "Upgrade to Pro version"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:9
+msgid "Share Your Feedback"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:18
+msgid "General Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:20
+msgid "Design"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:22
+msgid "Notification"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:24
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:70
+msgid "Templates"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:26
+msgid "Live Preview"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:28
+msgid "Pro Features"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:30
+msgid "Whats included in the Pro Version"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:34
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:181
+msgid "Show Some Love"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:36
+msgid "Video Tutorial"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:183
+msgid "Like this plugin? Show your support by:"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:194
+msgid "Rate It"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:195
+msgid "Tweet It"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:196
+msgid "Buy Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:220
+msgid "Fully Functional Coming Soon Page in 30 minutes"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:222
+msgid "In this"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:222
+msgid " Video Tutorial"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:222
+msgid ""
+" , I will demonstrate how you can create a fully functional Coming Soon Page "
+"in as little as 30 minutes."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:223
+msgid "Here is what we the Landing page will look like."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:229
+msgid ""
+"This video tutorial is for the premium version of the plugin. As you can "
+"see, it has:"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:232
+msgid "1. Company Logo"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:233
+msgid "2. An Image Slide Show BackGround"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:234
+msgid "3. Email Capture Box, with option to Capture First Name and Last Name"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:235
+msgid "4. CountDown Timer"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:236
+msgid "5. A Progress Bar"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:237
+msgid "6. Social Media Icons"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:238
+msgid ""
+"7. The Video also contains a brief overview of the features like Multiple "
+"Templates, Ip based access, Newsletter Integration etc. "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:241
+msgid ""
+"The premium version is priced at 29 USD and lets you use the plugin on "
+"unlimited website."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:242
+msgid "Here is the "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:242
+msgid "link to the Video."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:242
+msgid "Enjoy!!!"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/webriti_option_pannel.php:316
+msgid "Thanks for subscribing this page"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:24
+msgid ""
+"Sample Coming Soon Page</a> created by the premium version of the plugin."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:48
+msgid ""
+"A Launch Page can play an important role in branding so we made sure that "
+"all included templates are good looking. <br>\n"
+"As a user you just have to fill in the data via option panel and a Coming "
+"Soon Page will be created as per the selected template."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:77
+msgid "7. Count-Down Timer Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:88
+msgid ""
+"This feature allows you to quickly change the labels of the Text Fields and "
+"Buttons. "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:92
+msgid ""
+"You can create a SlideShow and display it as a background with this feature. "
+"You may add as many slides as you want. It is also possible to display a "
+"Static Image or simply a color as a background.  "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:95
+msgid ""
+"This feature allows you to create a Full Screen Video BackGround. Just "
+"upload the video on Youtube and configure the settings via the Admin Panel. "
+"Its that simple! "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:98
+msgid ""
+"The premium version has support for 20 Social Media Network. You just need "
+"to fill in the url and the respective icon will be displayed on the coming "
+"soon page.  "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:101
+msgid ""
+"The plugin allows you to quickly customize the settings like Font Color, "
+"Font Size, Font type, Button Color etc. All of these settings can be "
+"accessed via the Option Panel.  "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:104
+msgid ""
+"A lot of times the inbuilt settings are just not enough. With the Custom CSS "
+"support you can quikly add style rules to the coming soon page.  "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:107
+msgid ""
+"You can paste the google analytics tracking code and track the pageviews. No "
+"need to install a separate plugin.. "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:122
+msgid "Priyanshu"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/aboutpro_version_settings.php:123
+msgid "Co-Founder, EasyComingSoon"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:29
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:51
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:27
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:28
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:43
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:72
+msgid "Design Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:75
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:63
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/live_preview_settings.php:8
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:51
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:56
+msgid "Options data successfully Saved"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:76
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:64
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/live_preview_settings.php:9
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:52
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:57
+msgid "Options data successfully reset"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:87
+msgid "Background Color"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:92
+msgid "Headline font-color"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:97
+msgid "Headline font-size"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:107
+msgid "Headline font-style"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:136
+msgid "Description font-color"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:141
+msgid "Description font-size"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/design_page_settings.php:151
+msgid "Description font-style"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:60
+msgid "Quick Start Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:77
+msgid "Select status"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:78
+msgid "Disabled"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:79
+msgid "Coming soon enabled"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:85
+msgid "Enter background image"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:97
+msgid "Enter the title"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:104
+msgid "Enter description"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:111
+msgid "Google Analytics Code"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:118
+msgid "Enter facebook URL"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:125
+msgid "Enter twitter URL"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/header_page_settings.php:132
+msgid "Enter google-plus URL"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/live_preview_settings.php:5
+msgid "Live Preview Page"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/live_preview_settings.php:20
+msgid "Click here"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/live_preview_settings.php:20
+msgid "for live preview template"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:48
+msgid "Mailing Option settings"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:65
+msgid "Mail option"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:67
+msgid "Do not display signup field"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:68
+msgid "Mail to the Owner"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:75
+msgid "Owner Email Address"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:82
+msgid "Display Message after user subscribing"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:89
+msgid "Subscribe Button"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:96
+msgid "Email Textbox Placeholder"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:103
+msgid "Custom Email message to owner"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:105
+msgid "Use Shortcode :"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/notification_page_setting.php:105
+msgid "to include the email address entered by the Subscriber"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:8
+msgid "We have 2 set of licenses"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:10
+msgid ""
+"<strong>Single Site License</strong> - The price of this license is <b>$29</"
+"b>. Which allow you to use the Premium Plugin on Single Site."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:11
+msgid ""
+"<strong>Unlimited Site License</strong> - This price of this license is <b>"
+"$59</b>. Which allow you to use the plugin on Unlimited WordPress Websites."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:13
+msgid ""
+"Support and Updates will be given for 1 year. <br>If you need updates and "
+"support after one year, then simply renew the license. If not, then you may "
+"keep using the plugin."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:17
+msgid "If you are interested then you can buy the plugin"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:17
+msgid ""
+"Once the purchase process gets complete, the license key will be emailed to "
+"you. Add and activate this license key in the License option page in the "
+"Premium version of this plugin. Make sure that you activate this license key "
+"in order to enjoy the continue support and plugin updates."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pricing_settings.php:20
+msgid ""
+"Thousands of users have enjoyed using our. I hope you will also enjoy "
+"working with us "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:19
+msgid ""
+"The premium version allows you to capture Visitor Email address, integrates "
+"with various AutoResponders , Comes with 2 different Template and provide "
+"loads of Design Customization Options."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:40
+msgid "Email Capture Field"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:41
+msgid ""
+"Collect email address of your visitors with an email Capture Field. The "
+"Captured Email address are stored in your Wordpress website."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:61
+msgid "Newsletter Integration"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:62
+msgid ""
+"Premium version integrates with popular newsletter services like <ul style="
+"\"list-style-type: disc;margin-left:5%;font-size:15px\"><li> Mailchimp</"
+"li><li>Aweber</li><li>Madmimi</li><li>Constant Contact</li><li>Campaign "
+"Monitor</li><li>FeedBurner</li></ul>"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:81
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:266
+msgid "Responsive Design"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:82
+msgid ""
+"Create a Responsive Landing Page Mode. Easy coming soon support Bootstrap "
+"Based landing page which display perfectly on mobile and tablet device."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:96
+msgid "4 additional Design Templates"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:97
+msgid ""
+"The premium version comes with 4 extra templates.  All the templates are "
+"completely customizable."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:115
+msgid "Powerful Design Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:116
+msgid ""
+"Make your maintenance page look Sexy!!! The premium version comes with loads "
+"of design settings like : <ul style=\"list-style-type: disc;margin-left:5%;"
+"font-size:15px\"><li>Video Back-Grounds</li><li>Background Slideshow</"
+"li><li>Google Font integration</li><li>Text color Customization</"
+"li><li>Custom Css</li></ul>"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:127
+msgid "Landing Page Mode"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:128
+msgid ""
+"Design and Publish a Landing Page on your Wordpress Website. The premium "
+"version enables you add a landing page to your existing wordpress website. "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:146
+msgid "Access Controls"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:147
+msgid ""
+"Powerful Access Control feature lets you decide which users can view the "
+"Live Website.  Whitelist IP address and User Roles. Assign Coming Soon Page "
+"to a particualr Wordpress Page."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:164
+msgid "Social Media Icons Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:165
+msgid ""
+"Quickly add links to your social profiles. The plugin supports adding links "
+"to Facebook, Twitter, Google+, Pinterest, Youtube, Tumblr, Viemo etc.."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:180
+msgid "All Browser Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:181
+msgid ""
+"Plugin Tested with all popular browsers like  <ul style=\"list-style-type: "
+"disc;margin-left:5%;font-size:15px\"><li> IE 9 +</li><li> Google Chrome</"
+"li><li> Mozilla Firefox </li><li> Apple Safari</li></ul>"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:196
+msgid "Translation Ready"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:197
+msgid "Quickly translate the plugin in the language of your choice."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:218
+msgid "Upgarde to Coming Soon Pro Here"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:241
+msgid "Comparison Table of Free And Pro Version"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:247
+msgid "Features"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:248
+msgid "Free"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:249
+msgid "Premium"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:257
+msgid "Plugin is work with any wordpress theme easily."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:258
+msgid "Works With Any Wordpress Theme"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:265
+msgid ""
+"Plugin template is compatible with all devices. It have completely resposive "
+"feature."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:273
+msgid "Defalut template is availale in both pro and free ."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:274
+msgid "Free Coming Soon Page Template"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:280
+msgid "Easily customizable admin panel and very user friendly."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:281
+msgid "User-friendly Setup"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:288
+msgid "Default fonts are availabel in both."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:289
+msgid "Default fonts"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:297
+msgid "Buddy Press Supportive."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:298
+msgid "BuddyPress Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:306
+msgid ""
+"Visible only non loggeed user, if you are not login then you are not able to "
+"view regular site."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:307
+msgid "Visible only non logged user"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:315
+msgid "Easily collect user notify mail."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:316
+msgid "Easily collect visitor emails"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:327
+msgid "Google Analytics supportive."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:328
+msgid "Google Analytics Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:335
+msgid "Get social support."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:336
+msgid "Social Follow Icons"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:337
+msgid "Facebook, Twitter, Google+"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:338
+msgid ""
+"Twitter, Facebook, Linkedin, Google+, Youtube, Email, Pinterest, Yahoo  etc."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:343
+msgid "Google fonts api are integreted with coming soon."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:344
+msgid "Google Fonts Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:351
+msgid "Get our fast and friendly support."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:352
+msgid "Multisite Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:360
+msgid "laguage Translation is available in premium."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:361
+msgid "Language Translation Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:368
+msgid "limit access with clients who want to view regular sites."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:369
+msgid "Limit Access with Client View"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:376
+msgid "Multiple page template is available for coming soon page."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:377
+msgid "Multiple Page Templates"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:384
+msgid "Add user whitelist who access the site after login."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:385
+msgid "Add User Whitelist"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:392
+msgid "Add ip access for user."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:393
+msgid "Access By Ip"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:400
+msgid ""
+"page landing mode is available that mean you will able to add coming soon "
+"template for single site page ."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:401
+msgid "Single Page View Access"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:408
+msgid "Add fullscreen background slideshow."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:409
+msgid "Background Image SlideShow"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:416
+msgid "Add youtube video background."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:417
+msgid "Youtube Video background"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:424
+msgid "Mailchimp Integration for Email Marketing & Data Capture."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:425
+msgid "Mailchimp Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:432
+msgid "Compaign Monitor for Email Marketing & Data Capture."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:433
+msgid "Compaign Monitor"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:439
+msgid "Constant Contact for Email Marketing & Data Capture."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:440
+msgid "Constant Contact"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:446
+msgid "Madmimi Integration for Email Marketing & Data Capture."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:447
+msgid "Madmimi Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:453
+msgid "Aweber Integration for Email Marketing & Data Capture."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:454
+msgid "Aweber Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:461
+msgid "feedburner Integration for Email Marketing & Data Capture."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:462
+msgid "Feedburner Support"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:470
+msgid "Add countdown timer for coming soon page."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:471
+msgid "Countdown Timer"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:480
+msgid "progress bar enable"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:481
+msgid "Progress Bar"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:488
+msgid "SEO supportive. Add meta title, description and favicon image. "
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:489
+msgid "Custom Faviceon, Meta Title and Description"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:496
+msgid ""
+"Get multiple mode of coming soon like Maintanance mode,Landing mode etc."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:497
+msgid "Enable Multiple Mode of Coming Soon"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:503
+msgid "Company logo and credit image insertig option."
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/pro_features_settings.php:504
+msgid "Company Logo and Credit Links"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:53
+msgid "Templates Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:111
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:133
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:155
+#: D:\xampp\htdocs\translate\wp-content\plugins\commingsoon_lite/theme_options/pages/template_page_settings.php:177
+msgid "Available In Pro"
+msgstr ""
