@@ -1,0 +1,57 @@
+#buddypress #members-list .member-inner-list
+	padding: 
+		top: 25px
+		bottom: 0
+	text-align: center
+	border-radius: 3px
+	background-color: white
+	div.item-avatar.rounded
+		width: 106px
+		height: 106px
+		border-width: 0
+		float: none
+		margin: 0 auto
+		margin-bottom: 15px
+		img
+			width: 100%
+		.kleo-online-status
+			width: 16px
+			height: 16px
+			border-color: white
+			right: 11px
+			background-color: map-get($theme-colors, grey)
+			&.high-bg
+				background-color: map-get($theme-colors, green)
+	.item-title, .item-meta
+		padding: 0
+		margin: 0
+	.item-title
+		font:
+			size: 18px
+			weight: 900
+	.item-meta
+		margin-bottom: 15px
+	.looking
+		font:
+			size: 14px
+		margin-bottom: 15px
+		.industry 
+			font:
+				size: 18px
+				font-weight: 900
+			margin-top: 5px
+	.action
+		padding: 15px
+		background-color: map-get($theme-colors, green)
+		border-radius: 0 0 3px 3px
+		.friendship-button
+			a
+				color: white
+				transition: all .4s
+				&:hover
+					color: black
+		#send-private-message
+			a 
+				color: white
+				&:hover
+					color: black
