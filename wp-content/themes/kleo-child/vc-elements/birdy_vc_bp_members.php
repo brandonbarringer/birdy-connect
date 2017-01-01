@@ -153,9 +153,7 @@ class vc_members extends WPBakeryShortCode {
                             '<a href="'. bp_get_member_permalink().'">'. 
                             bp_get_member_avatar() . kleo_get_img_overlay() . '</a>';
 
-                    if ($online == 'show') {
-                        echo kleo_get_online_status(bp_get_member_user_id());
-                    }
+                    do_action('bp_member_online_status', bp_get_member_user_id());
 
                     echo    '</div>'.
                             '<div class="item">
@@ -170,9 +168,11 @@ class vc_members extends WPBakeryShortCode {
 
                     do_action( 'bp_directory_members_item' );
 
-                    echo '</div>';
+                    echo '<div class="looking">Looking for <span class="type">';
 
-                    echo '<div class="looking">Looking for <span class="type">' . bp_member_profile_data( 'field=Looking For' ) . '</span>';
+                    echo bp_member_profile_data( 'field=Looking For' );
+
+                    echo '</span>';
 
                     echo '<div class="industry">';
                             
@@ -180,10 +180,11 @@ class vc_members extends WPBakeryShortCode {
                             $member_type_obj = bp_get_member_type_object( $member_type );
                             echo $member_type_obj -> labels['name'];
                                 
-                    echo '</div>';
+                    echo '</div>'; // .industry
 
-                    echo '</div>';
+                    echo '</div>'; // .looking
 
+                    echo '</div>'; // .item
 
                     echo '<div class="action">';
 
