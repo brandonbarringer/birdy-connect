@@ -30,10 +30,21 @@ function birdy_register_member_types() {
 		bp_register_member_type( $industry, array(
 			'labels' => array('name' => $str_name ),
 			'has_directory' => true
-			));
+		));
 	}
 
 }
+ 
+function vc_before_init_actions() {
+      
+    // Require new members grid elememt for visual composer
+    require_once( 'vc-elements/birdy_vc_bp_members.php' ); 
+     
+}
+
+// Before VC Init
+add_action( 'vc_before_init', 'vc_before_init_actions' );
+
 // register memeber types in buddyPress
 add_action( 'bp_register_member_types', 'birdy_register_member_types' );
 
