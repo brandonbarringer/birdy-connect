@@ -53,7 +53,7 @@ if ( function_exists('bp_is_active') ) {
 					.'<div class="item">
 							<div class="item-title">'
 								.'<a href="'. bp_get_member_permalink().'">'. bp_get_member_name() . '</a>
-							</div>
+							</div> figure out how this works /wp-content/plugins/k-elements/shortcodes/templates/buddypress/kleo_bp_members_masonry.php
 					<div class="item-meta"><span class="activity">'.bp_get_member_last_active().'</span></div>';
 
 					if ( bp_get_member_latest_update() ) {

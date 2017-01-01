@@ -128,7 +128,6 @@ class BP_Core_Members_Widget extends WP_Widget {
 						<div class="item-avatar">
 							<a href="<?php bp_member_permalink() ?>" title="<?php bp_member_name(); ?>"><?php bp_member_avatar(); ?></a>
 						</div>
-
 						<div class="item">
 							<div class="item-title fn"><a href="<?php bp_member_permalink(); ?>" title="<?php bp_member_name(); ?>"><?php bp_member_name(); ?></a></div>
 							<div class="item-meta">

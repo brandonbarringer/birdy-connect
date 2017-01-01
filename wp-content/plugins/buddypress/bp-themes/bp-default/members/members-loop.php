@@ -41,7 +41,6 @@
 			<div class="item-avatar">
 				<a href="<?php bp_member_permalink(); ?>"><?php bp_member_avatar(); ?></a>
 			</div>
-
 			<div class="item">
 				<div class="item-title">
 					<a href="<?php bp_member_permalink(); ?>"><?php bp_member_name(); ?></a>

@@ -48,11 +48,9 @@ do_action( 'bp_before_members_loop' ); ?>
 	do_action( 'bp_before_directory_members_list' ); ?>
 
 	<ul id="members-list" class="item-list row kleo-isotope masonry"  aria-live="assertive" aria-relevant="all">
-
 	<?php while ( bp_members() ) : bp_the_member(); ?>
 
 		<li class="kleo-masonry-item">
-
     	    <div class="member-inner-list animated animate-when-almost-visible bottom-to-top">
 
 		        <div class="item-avatar rounded">
@@ -62,7 +60,6 @@ do_action( 'bp_before_members_loop' ); ?>
 		          <?php do_action('bp_member_online_status', bp_get_member_user_id()); ?>
 
 		        </div>
-
                 <div class="item">
 
 					<div class="item-title">
