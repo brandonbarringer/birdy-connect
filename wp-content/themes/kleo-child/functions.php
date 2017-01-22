@@ -36,7 +36,9 @@ function birdy_register_member_types() {
 }
  
 function vc_before_init_actions() {
-      
+    
+    //Remove old members grid from vc
+    vc_remove_element( 'kleo_bp_members_masonry' );
     // Require new members grid elememt for visual composer
     require_once( 'vc-elements/birdy_vc_bp_members.php' ); 
      
