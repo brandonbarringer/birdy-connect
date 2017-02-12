@@ -1,4 +1,4 @@
-		
+
 		<!-- SOCKET SECTION
 		================================================ -->
 
@@ -15,7 +15,7 @@
 							<div class="col-sm-12">
 								<?php echo do_shortcode(sq_option( 'footer_text','' )); ?>
 							</div>
-							
+
 							<div class="col-sm-12">
 								<div class="gap-10"></div>
 							</div><!--end widget-->
