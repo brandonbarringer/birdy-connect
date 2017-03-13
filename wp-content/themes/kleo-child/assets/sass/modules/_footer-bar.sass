@@ -4,12 +4,18 @@
   padding: 15px
 
 .footer-links
-  text-align: right
+  text-align: left
+  padding: 0
+
+  +media(min, map-get($breakpoints, tablet))
+    text-align: right
 
   &__link
     display: inline-block
-    padding-left: 15px
+    padding: 0
 
+    +media(min, map-get($breakpoints, tablet))
+        padding-right: 15px
     a
       color: #fff !important
 
