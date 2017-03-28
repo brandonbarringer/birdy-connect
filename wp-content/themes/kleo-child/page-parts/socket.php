@@ -5,8 +5,10 @@
 		<div id="socket" class="socket-color footer-bar">
 			<div class="footer-graphic" style="background-image: url('<?php echo get_stylesheet_directory_uri() . '/assets/images/footer.jpg' ?>');">
 				<img class="logo" src="<?php echo get_stylesheet_directory_uri() . '/assets/svgs/birdyConnect_Logo-White.svg'; ?>">
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet faucibus elit, tincidunt viverra est.  </p>
-				<a href="#" class="b-button"> Sign Up </a>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet faucibus elit, tincidunt viverra est.  </p>
+				<?php if( !is_user_logged_in() ): ?>
+					<a href="/register" class="b-button"> Sign Up </a>
+				<?php endif; ?>
 			</div>
 			<div class="container">
 				<div class="template-page tpl-no col-xs-12 col-sm-12">
