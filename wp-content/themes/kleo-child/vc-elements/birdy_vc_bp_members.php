@@ -5,7 +5,7 @@ Displays a buddypress members grid
 Replaces k-elmements 'bp_members_masonry'
 */
 
-// Element Class 
+// Element Class
 class vc_members extends WPBakeryShortCode {
 
     // Element Init
@@ -106,9 +106,9 @@ class vc_members extends WPBakeryShortCode {
 
                 )
             )
-        );       
+        );
 
-    } 
+    }
 
 
     // Element HTML
@@ -124,7 +124,7 @@ class vc_members extends WPBakeryShortCode {
                 'class' => '',
                 'rounded' => "rounded",
                 'online' => 'show'
-                ), $atts ) 
+                ), $atts )
             );
 
         $params = array(
@@ -143,14 +143,14 @@ class vc_members extends WPBakeryShortCode {
                 echo '<div class="wpb_wrapper">';
                 echo '<div id="members-dir-list" class="members dir-list">';
                 echo '<ul id="members-list" class="item-list row kleo-isotope masonry '.$class.'">';
-                
+
                 while( bp_members() ) : bp_the_member();
 
-                
+
                     echo    '<li class="kleo-masonry-item">'.
                             '<div class="member-inner-list animated animate-when-almost-visible bottom-to-top">'.
                             '<div class="item-avatar '.$rounded.'">'.
-                            '<a href="'. bp_get_member_permalink().'">'. 
+                            '<a href="'. bp_get_member_permalink().'">'.
                             bp_get_member_avatar() . kleo_get_img_overlay() . '</a>';
 
                     do_action('bp_member_online_status', bp_get_member_user_id());
@@ -175,14 +175,18 @@ class vc_members extends WPBakeryShortCode {
                     echo '</span>';
 
                     echo '<div class="industry">';
-                            
-                            $member_type = bp_get_member_type( bp_get_member_user_id() ); 
+
+                            $member_type = bp_get_member_type( bp_get_member_user_id() );
                             $member_type_obj = bp_get_member_type_object( $member_type );
                             echo $member_type_obj -> labels['name'];
-                                
+
                     echo '</div>'; // .industry
 
                     echo '</div>'; // .looking
+
+                    echo '<div class="looking"><span class="type">';
+                    echo bp_member_profile_data( 'field=Country' );
+                    echo "</span></div>";
 
                     echo '</div>'; // .item
 
@@ -202,13 +206,13 @@ class vc_members extends WPBakeryShortCode {
                 $output = ob_get_clean();
             }
 
-        } 
+        }
         else {
             $output = __("This shortcode must have Buddypress installed to work.","k-elements");
-        } 
+        }
 
         echo $output;
-    } 
+    }
 
 } // End Element Class
 

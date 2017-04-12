@@ -1,5 +1,5 @@
 #buddypress #members-list .member-inner-list
-	padding: 
+	padding:
 		top: 25px
 		bottom: 0
 	text-align: center
@@ -36,12 +36,15 @@
 		font:
 			size: 14px
 		margin-bottom: 15px
-		.industry 
+		.industry
 			font:
 				size: 18px
 				weight: bold
 			margin-top: 5px
 	.action
+		position: absolute
+		width: calc(100% - 20px)
+		bottom: 10px
 		padding: 15px
 		background-color: map-get($theme-colors, green)
 		border-radius: 0 0 3px 3px
@@ -55,11 +58,11 @@
 				&:hover
 					color: black
 			&.not_friends
-				a 
+				a
 					background-color: white
 					color: map-get($theme-colors, green)
 		#send-private-message
-			a 
+			a
 				color: white
 				&:hover
 					color: black
