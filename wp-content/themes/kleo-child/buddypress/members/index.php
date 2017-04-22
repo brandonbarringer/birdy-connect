@@ -35,7 +35,7 @@ do_action( 'bp_before_directory_members_page' ); ?>
 
 	<?php /* Backward compatibility for inline search form. Use template part instead. */ ?>
 	<?php if (version_compare( BP_VERSION, '2.7', '<' ) || has_filter( 'bp_directory_members_search_form' ) ) : ?>
-
+		<?php echo do_shortcode('[bps_display form=8374]'); ?>
 		<div id="members-dir-search" class="dir-search" role="search">
 			<?php bp_directory_members_search_form(); ?>
 		</div><!-- #members-dir-search -->
