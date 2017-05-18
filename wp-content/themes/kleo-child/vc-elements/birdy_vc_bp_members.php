@@ -170,15 +170,14 @@ class vc_members extends WPBakeryShortCode {
 
                     echo '<div class="looking">Looking for <span class="type">';
 
-                    echo bp_member_profile_data( 'field=Looking For' );
+                    // echo bp_member_profile_data( 'field=Looking For' );
+
 
                     echo '</span>';
 
                     echo '<div class="industry">';
 
-                            $member_type = bp_get_member_type( bp_get_member_user_id() );
-                            $member_type_obj = bp_get_member_type_object( $member_type );
-                            echo $member_type_obj -> labels['name'];
+                    echo _e(xprofile_get_field_data('Looking For', bp_get_member_user_id()));
 
                     echo '</div>'; // .industry
 

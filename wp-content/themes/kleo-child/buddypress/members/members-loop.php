@@ -109,14 +109,12 @@ do_action( 'bp_before_members_loop' ); ?>
           ?>
           <div class="looking">
 
-          		Looking for <span class="type"><?php bp_member_profile_data( 'field=Looking For' ); ?></span>
+          		Looking for <span class="type"><?php _e( bp_member_profile_data( 'field=Looking For' ) ); ?></span>
 
 			<div class="industry">
 				
 				<?php 
-					$member_type = bp_get_member_type( bp_get_member_user_id() ); 
-					$member_type_obj = bp_get_member_type_object($member_type);
-					echo $member_type_obj -> labels['name'];
+					echo xprofile_get_field_data('Looking For', bp_get_member_user_id());
 				?>
 					
 			</div>
