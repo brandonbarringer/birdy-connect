@@ -5,9 +5,9 @@
 		<div id="socket" class="socket-color footer-bar">
 			<div class="footer-graphic" style="background-image: url('<?php echo get_stylesheet_directory_uri() . '/assets/images/footer.jpg' ?>');">
 				<img class="logo" src="<?php echo get_stylesheet_directory_uri() . '/assets/svgs/birdyConnect_Logo-White.svg'; ?>">
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet faucibus elit, tincidunt viverra est.  </p>
+					<p> <?php  echo __('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet faucibus elit, tincidunt viverra est.'); ?>  </p>
 				<?php if( !is_user_logged_in() ): ?>
-					<a href="/register" class="b-button"> Sign Up </a>
+					<a href="/register" class="b-button"> <?php echo __('Sign Up'); ?> </a>
 				<?php endif; ?>
 			</div>
 			<div class="container">
@@ -15,7 +15,7 @@
 					<div class="wrap-content">
 						<div class="row">
               <div class="col-sm-6">
-								&#169; <?php echo date('Y') . ' Birdy Connect. All Rights Reserved.' ?>
+								&#169; <?php echo date('Y') . __(' Birdy Connect. All Rights Reserved.'); ?>
 							</div>
 							<div class="col-sm-6">
                 <ul class="footer-links">
