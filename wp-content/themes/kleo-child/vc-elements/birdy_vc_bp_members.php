@@ -151,7 +151,7 @@ class vc_members extends WPBakeryShortCode {
                             '<div class="member-inner-list animated animate-when-almost-visible bottom-to-top">'.
                             '<div class="item-avatar '.$rounded.'">'.
                             '<a href="'. bp_get_member_permalink().'">'.
-                            bp_get_member_avatar() . kleo_get_img_overlay() . '</a>';
+                            bp_get_member_avatar(array('type' => 'small')) . kleo_get_img_overlay() . '</a>';
 
                     do_action('bp_member_online_status', bp_get_member_user_id());
 
