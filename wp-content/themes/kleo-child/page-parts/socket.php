@@ -5,7 +5,7 @@
 		<div id="socket" class="socket-color footer-bar">
 			<div class="footer-graphic" style="background-image: url('<?php echo get_stylesheet_directory_uri() . '/assets/images/footer.jpg' ?>');">
 				<img class="logo" src="<?php echo get_stylesheet_directory_uri() . '/assets/svgs/birdyConnect_Logo-White.svg'; ?>">
-					<p> <?php  echo __('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet faucibus elit, tincidunt viverra est.'); ?>  </p>
+					<p> <?php  echo __('Sign Up Today!'); ?>  </p>
 				<?php if( !is_user_logged_in() ): ?>
 					<a href="/register" class="b-button"> <?php echo __('Sign Up'); ?> </a>
 				<?php endif; ?>
@@ -19,8 +19,8 @@
 							</div>
 							<div class="col-sm-6">
                 <ul class="footer-links">
-                  <li class="footer-links__link"> <a href="http://google.com"> Privacy Policy </a> </li>
-                  <li class="footer-links__link"> <a href="http://google.com"> Terms &amp; Conditions </a> </li>
+                  <li class="footer-links__link"> <a href="http://google.com"> <?php echo __('Privacy Policy') ?> </a> </li>
+                  <li class="footer-links__link"> <a href="http://google.com"> <?php echo __('Terms &amp; Conditions') ?> </a> </li>
                 </ul>
 							</div>
 						</div><!--end row-->
