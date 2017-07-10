@@ -3,18 +3,20 @@
 Plugin Name: BP Profile Search
 Plugin URI: http://www.dontdream.it/bp-profile-search/
 Description: Search your BuddyPress Members Directory.
-Version: 4.6.3
+Version: 4.7.6
 Author: Andrea Tarantini
 Author URI: http://www.dontdream.it/
 Text Domain: bp-profile-search
 */
 
-define ('BPS_VERSION', '4.6.3');
+define ('BPS_VERSION', '4.7.6');
 include 'bps-admin.php';
+include 'bps-directory.php';
 include 'bps-fields.php';
 include 'bps-form.php';
 include 'bps-help.php';
 include 'bps-search.php';
+include 'bps-templates47.php';
 include 'bps-widget.php';
 include 'bps-xprofile.php';
 
@@ -50,23 +52,47 @@ function bps_default_template ()
 	return $templates[0];
 }
 
-register_activation_hook (__FILE__, 'bps_activate');
-function bps_activate ()
+add_action ('init', 'bps_upgrade471');
+function bps_upgrade471 ()
 {
-	bps_upgrade42 ();
-}
+	$db_version = 471;
 
-function bps_upgrade42 ()
-{
+	$settings = get_option ('bps_settings');
+	$installed = ($settings === false)? 0: $settings->db_version;
+	if ($installed >= $db_version)  return false;
+
+	$settings->db_version = $db_version;
+	update_option ('bps_settings', $settings);	
+
 	$posts = get_posts (array ('post_type' => 'bps_form', 'nopaging' => true));
 	foreach ($posts as $post)
 	{
-		$id = $post->ID;
-		$meta = bps_meta ($id);
-		$changed = false;
-		if (!isset ($meta['action']))  { $meta['action'] = 0; $changed = true; }
-		if (!isset ($meta['template']))  { $meta['template'] = bps_default_template (); $changed = true; }
-		if ($changed)  update_post_meta ($id, 'bps_options', $meta);
+		$form = $post->ID;
+		$meta = bps_meta ($form);
+
+		if ($installed < 471)
+		{
+			if (!isset ($meta['action']))
+				$meta['action'] = 0;
+
+			if (!isset ($meta['template']))
+				$meta['template'] = bps_default_template ();
+
+			if (!isset ($meta['field_code']))
+				foreach ($meta['field_name'] as $k => $id)
+					$meta['field_code'][$k] = 'field_'. $id;
+
+			if (!isset ($meta['field_mode']))
+				foreach ($meta['field_range'] as $k => $range)
+					$meta['field_mode'][$k] = isset ($range)? 'range': '';
+		}
+
+//		if ($installed < xyz)
+//		{
+//			...
+//		}
+
+		update_post_meta ($form, 'bps_options', $meta);
 	}
 }
 
@@ -87,11 +113,10 @@ function bps_meta ($form)
 	if (isset ($options[$form]))  return $options[$form];
 
 	$default = array ();
-	$default['field_name'] = array ();
 	$default['field_code'] = array ();
 	$default['field_label'] = array ();
 	$default['field_desc'] = array ();
-	$default['field_range'] = array ();
+	$default['field_mode'] = array ();
 	$default['directory'] = 'No';
 	$default['template'] = bps_default_template ();
 	$default['header'] = __('<h4>Advanced Search</h4>', 'bp-profile-search');
@@ -99,14 +124,9 @@ function bps_meta ($form)
 	$default['button'] = __('Hide/Show Form', 'bp-profile-search');
 	$default['method'] = 'POST';
 	$default['action'] = 0;
-	$default['searchmode'] = 'LIKE';
 
 	$meta = get_post_meta ($form);
 	$options[$form] = isset ($meta['bps_options'])? unserialize ($meta['bps_options'][0]): $default;
-
-	if (empty ($options[$form]['field_code']))
-		foreach ($options[$form]['field_name'] as $k => $id)
-			$options[$form]['field_code'][$k] = 'field_'. $id;
 
 	return $options[$form];
 }
@@ -256,7 +276,6 @@ function bps_add_meta_boxes ()
 	add_meta_box ('bps_fields_box', __('Form Fields', 'bp-profile-search'), 'bps_fields_box', 'bps_form', 'normal');
 	add_meta_box ('bps_attributes', __('Form Attributes', 'bp-profile-search'), 'bps_attributes', 'bps_form', 'side');
 	add_meta_box ('bps_directory', __('Add to Directory', 'bp-profile-search'), 'bps_directory', 'bps_form', 'side');
-	add_meta_box ('bps_searchmode', __('Text Search Mode', 'bp-profile-search'), 'bps_searchmode', 'bps_form', 'side');
 }
 
 add_action ('save_post', 'bps_save_post', 10, 2);
@@ -329,6 +348,13 @@ function bps_admin_head ()
 		.fixed .column-directory {width: 16%;}
 		.fixed .column-widget {width: 14%;}
 		.fixed .column-shortcode {width: 18%;}
+		.bps_col1 {display: inline-block; width: 2%; cursor: move;}
+		.bps_col2 {display: inline-block; width: 20%;}
+		.bps_col3 {display: inline-block; width: 16%;}
+		.bps_col4 {display: inline-block; width: 32%;}
+		.bps_col5 {display: inline-block; width: 16%;}
+		a.delete {color: #aa0000;}
+		a.delete:hover {color: #ff0000;}
 	</style>
 <?php
 }
@@ -336,10 +362,9 @@ function bps_admin_head ()
 function _bps_admin_js ()
 {
 	$translations = array (
-		'field' => __('field', 'bp-profile-search'),
-		'label' => __('label', 'bp-profile-search'),
-		'description' => __('description', 'bp-profile-search'),
-		'range' => __('Range', 'bp-profile-search'),
+		'drag' => __('drag to reorder fields', 'bp-profile-search'),
+		'field' => __('select field', 'bp-profile-search'),
+		'remove' => __('Remove', 'bp-profile-search'),
 	);
 	wp_enqueue_script ('bps-admin', plugins_url ('bps-admin.js', __FILE__), array ('jquery-ui-sortable'), BPS_VERSION);
 	wp_localize_script ('bps-admin', 'bps_strings', $translations);

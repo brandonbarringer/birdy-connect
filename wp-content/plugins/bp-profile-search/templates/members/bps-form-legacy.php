@@ -19,7 +19,7 @@
 	else
 	{
 ?>
-	<div class="item-list-tabs bps_header">
+	<div class="item-list-tabs bps_header" style="clear: both;">
 	  <ul>
 		<li><?php echo $F->header; ?></li>
 <?php
@@ -33,7 +33,7 @@
 			jQuery(document).ready(function($) {
 				$('#<?php echo $form_id; ?>').hide();
 				$('#<?php echo $toggle_id; ?>').click(function(){
-					$('#<?php echo $form_id; ?>').toggle();
+					$('#<?php echo $form_id; ?>').toggle('slow');
 				});
 			});
 		</script>

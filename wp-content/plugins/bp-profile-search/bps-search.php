@@ -3,24 +3,26 @@
 add_action ('wp', 'bps_set_cookie');
 function bps_set_cookie ()
 {
+	$cookie = apply_filters ('bps_cookie_name', 'bps_request');
 	if (isset ($_REQUEST['bp_profile_search']))
 	{
-		setcookie ('bps_request', json_encode ($_REQUEST), 0, COOKIEPATH);
+		setcookie ($cookie, json_encode ($_REQUEST), 0, COOKIEPATH);
 	}
-	else if (isset ($_COOKIE['bps_request']) && apply_filters ('bps_clear_search', true))
+	else if (isset ($_COOKIE[$cookie]) && apply_filters ('bps_clear_search', true))
 	{
-		setcookie ('bps_request', '', 0, COOKIEPATH);
-		unset ($_COOKIE['bps_request']);
+		setcookie ($cookie, '', 0, COOKIEPATH);
+		unset ($_COOKIE[$cookie]);
 	}
 }
 
 function bps_get_request ()
 {
+	$cookie = apply_filters ('bps_cookie_name', 'bps_request');
 	$request = array ();
 	if (isset ($_REQUEST['bp_profile_search']))
 		$request = $_REQUEST;
-	else if (isset ($_COOKIE['bps_request']))
-		$request = json_decode (stripslashes ($_COOKIE['bps_request']), true);
+	else if (isset ($_COOKIE[$cookie]))
+		$request = json_decode (stripslashes ($_COOKIE[$cookie]), true);
 
 	return apply_filters ('bps_request', $request);
 }
@@ -31,21 +33,10 @@ function bps_active_form ()
 	return isset ($request['bp_profile_search'])? $request['bp_profile_search']: false;
 }
 
-function bps_text_search ()
-{
-	$request = bps_get_request ();
-	if (!isset ($request['text_search']))  return 'contains';
-
-	$text_search = $request['text_search'];
-	if ($text_search == 'EQUAL')  return '';
-	if ($text_search == 'ISLIKE')  return 'like';
-	return 'contains';
-}
-
 add_action ('bp_ajax_querystring', 'bps_filter_members', 99, 2);
 function bps_filter_members ($qs, $object)
 {
-	if ($object != 'members')  return $qs;
+	if (!in_array ($object, array ('members', 'group_members')))  return $qs;
 	if (bps_active_form () === false)  return $qs;
 
 	$results = bps_search ();
@@ -78,13 +69,13 @@ function bps_search ()
 	{
 		if (!isset ($f->filter))  continue;
 
-		do_action ('bps_before_search', $f);
+		do_action ('bps_field_before_query', $f);
 		if (is_callable ($f->search))
 			$found = call_user_func ($f->search, $f);
 		else
-			$found = apply_filters ('bps_field_query', array (), $f, $f->code, $f->value);
+			$found = apply_filters ('bps_field_query', array (), $f, $f->code, $f->value);  // to be removed
 
-		do_action ('bps_after_search', $f, $found);
+		do_action ('bps_field_after_query', $f, $found);
 
 		$match_all = apply_filters ('bps_match_all', true);
 		if ($match_all)
